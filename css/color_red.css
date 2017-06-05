@@ -1,0 +1,156 @@
+/*
+* Heading style colors
+*/
+
+.title-underline-base-color {
+    border-color: #e62b1e;
+}
+.title-underline-thick-base-color {
+    border-color: #e62b1e;
+}
+.title-sideline-base-color:before {
+    background-color: #e62b1e;
+}
+.title-strikethrough-base-color:before {
+    background-color: #e62b1e;
+}
+
+
+/*
+* Text color
+*/
+
+.text-base-color {
+    color: #e62b1e !important;
+}
+
+
+/*
+* Text color (on hover)
+*/
+
+.text-hover-base-color:hover,
+.text-hover-base-color:focus {
+    color: #e62b1e !important;
+}
+
+
+/*
+* Background color
+*/
+
+.bg-base-color {
+    background-color: #e62b1e !important;
+}
+
+
+/*
+* Background color (on hover)
+*/
+
+.bg-hover-base-color:hover {
+    background-color: #e62b1e !important;
+}
+
+
+/*
+* Border color
+*/
+
+.border-base-color {
+    border-color: #e62b1e !important;
+}
+
+
+/*
+* Button colors
+*/
+
+.btn.btn-base-color {
+    background-color: #e62b1e;
+}
+.btn.btn-base-color.btn-hover-transparent:hover {
+    border-color: #e62b1e;
+    color: #e62b1e;
+}
+.btn.btn-outline-base-color {
+    border-color: #e62b1e;
+    color: #e62b1e;
+}
+.btn.btn-outline-base-color:hover,
+.btn.btn-outline-base-color:focus {
+    background-color: #e62b1e;
+}
+.btn.btn-outline-base-color.btn-hover-transparent:hover,
+.btn.btn-outline-base-color.btn-hover-transparent:focus {
+    color: #e62b1e;
+}
+
+
+/*
+* Preloader color
+*/
+
+.pace .pace-progress {
+    background-color: #e62b1e;
+}
+
+
+/*
+* Nav tabs (Section - Schedule)
+*/
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: #e62b1e !important;
+}
+
+
+/*
+* Nav stacked (Section - FAQ)
+*/
+
+.nav.nav-pills.nav-stacked > li.active > a,
+.nav.nav-pills.nav-stacked > li.active > a:hover,
+.nav.nav-pills.nav-stacked > li.active > a:focus {
+    background-color: #e62b1e;
+    color: #ffffff;
+}
+
+
+/*
+* Accordions (Section - FAQ)
+*/
+
+.panel-group .panel.active .panel-heading {
+    background-color: #e62b1e;
+}
+
+
+/*
+* Countdown
+*/
+
+.countdown .clock-item {
+    background-color: #e62b1e;
+}
+
+
+/*
+* Pricing (Section - Ticket)
+*/
+
+.pricing ul > li.check-mark:before {
+    background-color: #e62b1e;
+}
+
+
+/*
+* Timeline (Section - Schedule)
+*/
+
+.timeline-item.highlight:before {
+    background-color: #e62b1e;
+    border: #e62b1e;
+}
