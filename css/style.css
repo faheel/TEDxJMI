@@ -516,6 +516,7 @@
     padding-bottom: 50%;    /* aspect ratio */
     height: 0;
     overflow: hidden;
+    border: 0;
 }
 .map iframe {
     position: absolute;
