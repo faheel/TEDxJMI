@@ -511,12 +511,28 @@
         margin-top: 20px;
     }
 }
+
 .map {
     position: relative;
-    padding-bottom: 50%;    /* aspect ratio */
+    padding-bottom: 100%;    /* aspect ratio */
     height: 0;
     overflow: hidden;
     border: 0;
+}
+@media (min-width:420px) {
+    .map {
+        padding-bottom: 75%;    /* aspect ratio */
+    }
+}
+@media (min-width:540px) {
+    .map {
+        padding-bottom: 60%;    /* aspect ratio */
+    }
+}
+@media (min-width:800px) {
+    .map {
+        padding-bottom: 50%;    /* aspect ratio */
+    }
 }
 .map iframe {
     position: absolute;
@@ -526,6 +542,20 @@
     height: 100% !important;
 }
 
+.form {
+    position: relative;
+    padding-bottom: 1150px;    /* height */
+    height: 0;
+    overflow: hidden;
+    border: 0;
+}
+.form iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
 
 
