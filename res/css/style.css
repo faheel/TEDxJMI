@@ -1,49 +1,48 @@
 /*
-*   Table of Contents:
-*       01. Google Font
-*       02. Navbar
-*       03. Section - Home
-*           - Home BG Static (default)
-*           - Home BG Parallax
-*           - Home BG Slideshow
-*           - Home BG Slider
-*       04. Countdown
-*       05. Intro
-*       06. Section - Venue
-*       07. Section - Schedule
-*           - Carousel Schedule
-*           - Timeline
-*       08. Milestones
-*       09. Section - FAQ
-*           - Accordions
-*           - Nav Stacked
-*       10. Section - Ticket
-*           - Testimonial
-*           - Pricing
-*       11. Section - Register
-*       12. Section - Contact
-*       13. Countdown timer
-*       14. Footer
+    Table of contents
+    -----------------
+    01. Google fonts
+    02. Navbar
+    03. Section - Home
+        - Home BG Static (default)
+        - Home BG Parallax
+        - Home BG Slideshow
+        - Home BG Slider
+    04. Countdown
+    05. Intro
+    06. Section - Venue
+    07. Section - Schedule
+        - Carousel Schedule
+        - Timeline
+    08. Milestones
+    09. Section - FAQ
+        - Accordions
+        - Nav Stacked
+    10. Section - Ticket
+        - Testimonial
+        - Pricing
+    11. Section - Register
+    12. Section - Contact
+    13. Countdown timer
+    14. Footer
 */
 
 
 
-
-
-/*------------------------------------*\
-    Google font
-\*------------------------------------*/
+/*
+    Google fonts
+    ------------
+*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
-
-
-/*------------------------------------*\
+/*
     Navbar
-\*------------------------------------*/
+    ------
+*/
 
 .navbar-dark {
     background-color: black;
@@ -51,33 +50,26 @@
 
 
 
-
-
-/*------------------------------------*\
-    Section - Home
-\*------------------------------------*/
-
 /*
-* Home BG Static (default)
+    Section - Home
+    --------------
 */
+
+/* Home BG Static (default) */
 
 #home {
     background: url("../images/bg-home-1.jpg");
 }
 
 
-/*
-* Home BG Parallax
-*/
+/* Home BG Parallax */
 
 #home-bg-parallax > .bg-parallax {
     background: url("../images/bg-parallax.jpg");
 }
 
 
-/*
-* Home BG Slideshow
-*/
+/* Home BG Slideshow */
 
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
     background: url("../images/bg-home-1.jpg");
@@ -90,9 +82,7 @@
 }
 
 
-/*
-* Home BG Slider
-*/
+/* Home BG Slider */
 
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
     background: url("../images/bg-home-1.jpg");
@@ -110,18 +100,14 @@
 }
 
 
-/*
-* Home BG Animated Typing
-*/
+/* Home BG Animated Typing */
 
 #home-animated-typing {
     background: url("../images/bg-home-animated-typing.jpg");
 }
 
 
-/*
-* Home With Countdown
-*/
+/* Home With Countdown */
 
 #home-with-countdown {
     background: url("../images/bg-home-with-countdown.jpg");
@@ -129,11 +115,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Countdown
-\*------------------------------------*/
+    ---------
+*/
 
 .countdown {
     -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
@@ -177,11 +162,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Intro
-\*------------------------------------*/
+    -----
+*/
 
 #intro .features-box .bg-cover {
     -ms-backface-visibility: hidden;
@@ -201,11 +185,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Section - Venue
-\*------------------------------------*/
+    ---------------
+*/
 
 #venue {
     background-image: url("../images/bg-venue.jpg");
@@ -214,11 +197,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Section - Schedule
-\*------------------------------------*/
+    ------------------
+*/
 
 #schedule .nav-tabs > li.active > a,
 #schedule .nav-tabs > li.active > a:hover,
@@ -234,9 +216,7 @@
 }
 
 
-/*
-* Carousel Schedule
-*/
+/* Carousel Schedule */
 
 .carousel-schedule .carousel-cell {
     width: 100%;
@@ -248,9 +228,7 @@
 }
 
 
-/*
-* Timeline
-*/
+/* Timeline */
 
 .flickity-enabled.is-draggable .flickity-viewport,
 .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
@@ -304,11 +282,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Milestones
-\*------------------------------------*/
+    ----------
+*/
 
 #milestones {
     background-image: url("../images/bg-milestones.jpg");
@@ -316,15 +293,12 @@
 
 
 
-
-
-/*------------------------------------*\
-    Section - FAQ
-\*------------------------------------*/
-
 /*
-* Accordions
+    Section - FAQ
+    -------------
 */
+
+/* Accordions */
 
 .panel-group .panel {
     border: 1px solid #dfdfdf;
@@ -386,9 +360,7 @@
 }
 
 
-/*
-* Nav Stacked
-*/
+/* Nav Stacked */
 
 .nav.nav-pills.nav-stacked > li:first-child > a {
     border-top-right-radius: 4px !important;
@@ -405,15 +377,11 @@
 
 
 
-
-
-/*------------------------------------*\
-    Section - Ticket
-\*------------------------------------*/
-
 /*
-* Testimonial
+    Section - Ticket
 */
+
+/* Testimonial */
 
 .testimonial {
     max-width: 400px;
@@ -433,9 +401,7 @@
 }
 
 
-/*
-* Pricing
-*/
+/* Pricing */
 
 .pricing.box-shadow-yes {
     -webkit-box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.05);
@@ -478,11 +444,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Section - Register
-\*------------------------------------*/
+    ------------------
+*/
 
 #register {
     background-image: url("../images/bg-register.jpg");
@@ -496,11 +461,10 @@
 
 
 
-
-
-/*------------------------------------*\
+/*
     Section - Contact
-\*------------------------------------*/
+    -----------------
+*/
 
 #form-contact textarea {
     height: 120px;
@@ -559,10 +523,10 @@
 
 
 
-
-/*------------------------------------*\
+/*
     Countdown timer
-\*------------------------------------*/
+    ---------------
+*/
 
 .countdown-timer {
     display: flex;
@@ -613,12 +577,10 @@
 
 
 
-
-
-
-/*------------------------------------*\
+/*
     Footer
-\*------------------------------------*/
+    ------
+*/
 
 .footer {
     padding: 50px 0 32px;
