@@ -23,6 +23,8 @@
         - Pricing
     11. Section - Register
     12. Section - Contact
+        - Google map
+        - Forms
     13. Countdown timer
     14. Footer
 */
@@ -476,6 +478,9 @@
     }
 }
 
+
+/* Google map */
+
 .map {
     position: relative;
     padding-bottom: 100%;    /* aspect ratio */
@@ -506,9 +511,11 @@
     height: 100% !important;
 }
 
+
+/* Forms */
+
 .form {
     position: relative;
-    padding-bottom: 1150px;    /* height */
     height: 0;
     overflow: hidden;
     border: 0;
@@ -520,7 +527,12 @@
     width: 100% !important;
     height: 100% !important;
 }
-
+#volunteer {
+    padding-bottom: 3000px;    /* height */
+}
+#nominate-speaker {
+    padding-bottom: 1950px;    /* height */
+}
 
 
 /*
