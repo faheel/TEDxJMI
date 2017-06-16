@@ -1,3 +1,3 @@
-![TEDx JMI logo](images/logos/light.png)
+![TEDxJMI logo](res/images/logos/light.png)
 
-Event website for TEDx JMI
+Event website for TEDxJMI.
