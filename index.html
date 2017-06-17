@@ -1,3 +1,41 @@
+<!--
+TTTTTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDD
+T:::::::::::::::::::::TE::::::::::::::::::::ED::::::::::::DDD
+T:::::::::::::::::::::TE::::::::::::::::::::ED:::::::::::::::DD
+T:::::TT:::::::TT:::::TEE::::::EEEEEEEEE::::EDDD:::::DDDDD:::::D
+TTTTTT  T:::::T  TTTTTT  E:::::E       EEEEEE  D:::::D    D:::::Dxxxxxxx      xxxxxxx
+        T:::::T          E:::::E               D:::::D     D:::::Dx:::::x    x:::::x
+        T:::::T          E::::::EEEEEEEEEE     D:::::D     D:::::D x:::::x  x:::::x
+        T:::::T          E:::::::::::::::E     D:::::D     D:::::D  x:::::xx:::::x
+        T:::::T          E:::::::::::::::E     D:::::D     D:::::D   x::::::::::x
+        T:::::T          E::::::EEEEEEEEEE     D:::::D     D:::::D    x::::::::x
+        T:::::T          E:::::E               D:::::D     D:::::D    x::::::::x
+        T:::::T          E:::::E       EEEEEE  D:::::D    D:::::D    x::::::::::x
+      TT:::::::TT      EE::::::EEEEEEEE:::::EDDD:::::DDDDD:::::D    x:::::xx:::::x
+      T:::::::::T      E::::::::::::::::::::ED:::::::::::::::DD    x:::::x  x:::::x
+      T:::::::::T      E::::::::::::::::::::ED::::::::::::DDD     x:::::x    x:::::x
+      TTTTTTTTTTT      EEEEEEEEEEEEEEEEEEEEEEDDDDDDDDDDDDD       xxxxxxx      xxxxxxx
+
+          JJJJJJJJJJJMMMMMMMM               MMMMMMMMIIIIIIIIII
+          J:::::::::JM:::::::M             M:::::::MI::::::::I
+          J:::::::::JM::::::::M           M::::::::MI::::::::I
+          JJ:::::::JJM:::::::::M         M:::::::::MII::::::II
+            J:::::J  M::::::::::M       M::::::::::M  I::::I
+            J:::::J  M:::::::::::M     M:::::::::::M  I::::I
+            J:::::J  M:::::::M::::M   M::::M:::::::M  I::::I
+            J:::::j  M::::::M M::::M M::::M M::::::M  I::::I
+            J:::::J  M::::::M  M::::M::::M  M::::::M  I::::I
+JJJJJJJ     J:::::J  M::::::M   M:::::::M   M::::::M  I::::I
+J:::::J     J:::::J  M::::::M    M:::::M    M::::::M  I::::I
+J::::::J   J::::::J  M::::::M     MMMMM     M::::::M  I::::I
+J:::::::JJJ:::::::J  M::::::M               M::::::MII::::::II
+ JJ:::::::::::::JJ   M::::::M               M::::::MI::::::::I
+   JJ:::::::::JJ     M::::::M               M::::::MI::::::::I
+     JJJJJJJJJ       MMMMMMMM               MMMMMMMMIIIIIIIIII
+
+Event website by Syed Faheel Ahmad (github.com/faheel)
+-->
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -324,21 +362,8 @@
 
   <!-- Countdown -->
   <script src="res/js/jquery.countdown.min.js"></script>
-  <script>
-    $('.countdown-timer').countdown({
-      date: "October 15, 2017 10:00:00",
-      render: function(data) {
-        $(".days .value").html(this.leadingZeros(data.days, 2));
-        $(".hours .value").html(this.leadingZeros(data.hours, 2));
-        $(".minutes .value").html(this.leadingZeros(data.min, 2));
-        $(".seconds .value").html(this.leadingZeros(data.sec, 2));
-      }
-    });
-  </script>
+  <script src="res/js/countdown.js"></script>
 
 </body>
-
-<!-- Website designed by:
-Syed Faheel Ahmad (github.com/faheel) -->
 
 </html>
