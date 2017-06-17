@@ -486,7 +486,6 @@
     padding-bottom: 100%;    /* aspect ratio */
     height: 0;
     overflow: hidden;
-    border: 0;
 }
 @media (min-width:420px) {
     .map {
@@ -505,6 +504,7 @@
 }
 .map iframe {
     position: absolute;
+    border: 0;
     top: 0;
     left: 0;
     width: 100% !important;
