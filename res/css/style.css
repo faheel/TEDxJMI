@@ -559,7 +559,7 @@
 }
 .countdown-timer .label {
   font-family: Montserrat, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.75);
   padding-top: 8px;
@@ -576,6 +576,9 @@
 @media (min-width:600px) {
   .countdown-timer .value {
     font-size: 56px;
+  }
+  .countdown-timer .label {
+    font-size: 18px;
   }
 }
 @media (min-width:900px) {
