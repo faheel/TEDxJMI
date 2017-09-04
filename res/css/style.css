@@ -10,23 +10,25 @@
     - Home BG Slider
   04. Countdown
   05. Intro
-  06. Section - Venue
-  07. Section - Schedule
+  06. Section - Team
+  08. Section - Venue
+  08. Section - Schedule
     - Carousel Schedule
     - Timeline
-  08. Milestones
-  09. Section - FAQ
+  09. Milestones
+  10. Section - FAQ
     - Accordions
     - Nav Stacked
-  10. Section - Ticket
+  11. Section - Ticket
     - Testimonial
     - Pricing
-  11. Section - Register
-  12. Section - Contact
+  12. Section - Register
+  13. Section - Contact
     - Google map
     - Forms
-  13. Countdown timer
-  14. Footer
+  14. Countdown timer
+  15. Footer
+  16. Responsive images
 */
 
 
@@ -183,6 +185,17 @@
 }
 #intro .features-box:nth-child(3) .bg-cover {
   background-image: url("../images/intro-3.jpg");
+}
+
+
+
+/*
+  Section - Team
+  --------------
+*/
+
+.member-box {
+  margin-bottom: 24px;
 }
 
 
@@ -630,4 +643,25 @@
 }
 .footer-copyright {
   padding-top: 32px;
+}
+
+
+
+/*
+  Responsive images
+  -----------------
+*/
+
+.img-wrapper {
+  position: relative;
+  padding-bottom: 135%;
+  overflow: hidden;
+  width: 100%;
+}
+.img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin: auto;
 }
