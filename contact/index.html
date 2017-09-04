@@ -89,7 +89,8 @@ Event website by Syed Faheel Ahmad (github.com/faheel)
         <div id="navbar" class="navbar-collapse collapse col-md-9 pull-right">
           <ul class="nav navbar-nav font-family-alt letter-spacing-1 text-uppercase">
             <li><a href="/">About</a></li>
-            <!--<li><a href="/our-team">Our Team</a></li>-->
+            <!-- <li><a href="/our-team">Our Team</a></li> -->
+            <!-- <li><a href="/alumni">Alumni</a></li> -->
             <li><a href="/volunteer/">Volunteer</a></li>
             <li><a href="/nominate-speakers/">Nominate Speakers</a></li>
             <li><a href="#page-top" class="page-scroll">Contact Us</a></li>
@@ -107,7 +108,7 @@ Event website by Syed Faheel Ahmad (github.com/faheel)
 
   <!-- Section - Contact Start -->
   <section id="contact" class="bg-white">
-    <div class="container no-padding-rl">
+    <div class="container">
       <div class="row no-padding-rl">
         <div class="col-md-8 col-md-offset-2 text-center">
           <h3 class="font-family-alt font-weight-700 letter-spacing-2 text-uppercase xs-title-small title-medium title-sideline-base-color">
@@ -140,7 +141,49 @@ Event website by Syed Faheel Ahmad (github.com/faheel)
       <!-- //.row -->
 
       <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          <form name="contact" action="thank-you" method="post" id="form-contact" netlify>
+            <div class="row">
+              <div class="col-md-6" data-mh="mh-col-contact">
+                <input type="text" placeholder="Your Name" name="name" class="required">
+                <input type="text" placeholder="Your Email" name="email" class="required email">
+              </div>
+              <!-- //.col-md-6 -->
+
+              <div class="col-md-6" data-mh="mh-col-contact">
+                <textarea placeholder="Your Message" name="message" class="required"></textarea>
+              </div>
+              <!-- //.col-md-6 -->
+            </div>
+            <!-- //.row -->
+
+            <div class="row">
+              <div class="col-md-6">
+                <span class="display-block font-family-alt letter-spacing-1 text-gray-dark-2 text-small text-uppercase">
+                  * Please enter all fields correctly
+                </span>
+              </div>
+              <!-- //.col-md-6 -->
+
+              <div class="col-md-6">
+                <button id="btn-form-contact" type="submit" class="btn btn-base-color btn-medium">
+                  Send Message
+                </button>
+              </div>
+              <!-- //.col-md-6 -->
+            </div>
+            <!-- //.row -->
+          </form>
+        </div>
+        <!-- //.col-md-10 -->
+      </div>
+      <!-- //.row -->
+
+      <div class="row">
         <div class="col-md-10 col-md-offset-1 text-center">
+          <span class="bg-gray-light-2 margin-7 no-margin-bottom no-margin-rl separator-line-full"></span>
+
           <div class="margin-5 margin-bottom no-margin-rl">
             <h4 class="font-weight-300 letter-spacing-1">
               Jamia Millia Islamia
