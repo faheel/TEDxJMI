@@ -52,6 +52,11 @@
   background-color: black;
 }
 
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: inherit;
+}
+
 
 
 /*
@@ -654,7 +659,7 @@
 
 .img-wrapper {
   position: relative;
-  padding-bottom: 135%;
+  padding-bottom: 133.33%;    /* 4:3 aspect ratio */
   overflow: hidden;
   width: 100%;
 }
