@@ -2987,7 +2987,7 @@ section.pull-up {
 .btn.btn-outline-white:focus,
 .btn.btn-outline-white:hover {
   background-color: #fff;
-  color: #fff
+  color: #000
 }
 
 .btn.btn-outline-white.btn-hover-transparent:focus,
