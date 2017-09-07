@@ -109,20 +109,6 @@
 }
 
 
-/* Home BG Animated Typing */
-
-#home-animated-typing {
-  background: url("../images/bg-home-animated-typing.jpg");
-}
-
-
-/* Home With Countdown */
-
-#home-with-countdown {
-  background: url("../images/bg-home-with-countdown.jpg");
-}
-
-
 
 /*
   Countdown
@@ -211,7 +197,7 @@
 */
 
 #venue {
-  background-image: url("../images/ansari-auditorium.jpg");
+  background-image: url("../images/bg-venue.jpg");
   background-position: center bottom !important;
 }
 
