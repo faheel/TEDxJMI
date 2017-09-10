@@ -4,6 +4,9 @@ ul {
   margin: 0;
   padding: 0
 }
+ol {
+  padding-left: 0
+}
 
 .features-box p,
 img {
