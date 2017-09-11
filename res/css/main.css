@@ -4718,7 +4718,7 @@ section.pull-up {
   }
 }
 
-@media (max-width:991px) {
+@media (max-width:1199px) {
   .navbar.navbar-white .navbar-brand,
   .navbar.navbar-white .navbar-nav>li>a {
     color: #000
@@ -4754,7 +4754,7 @@ section.pull-up {
   }
 }
 
-@media (min-width:992px) {
+@media (min-width:1200px) {
   .navbar {
     background-color: rgba(0, 0, 0, .15);
     border-bottom: 1px solid rgba(255, 255, 255, .15)
