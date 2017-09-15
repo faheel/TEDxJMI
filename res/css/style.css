@@ -26,9 +26,10 @@
   13. Section - Contact
     - Google map
     - Forms
-  14. Countdown timer
-  15. Footer
-  16. Responsive images
+  14. Event bottom banner
+  15. Countdown timer
+  16. Footer
+  17. Responsive images
 */
 
 
@@ -540,12 +541,42 @@
   width: 100% !important;
   height: 100% !important;
 }
-#volunteer {
+#volunteer-form {
   padding-bottom: 3000px;    /* height */
 }
-#nominate-speaker {
+#nominate-speaker-form {
   padding-bottom: 1950px;    /* height */
 }
+#registration-form {
+  padding-bottom: 1700px;    /* height */
+}
+
+
+
+/*
+  Event bottom banner
+  -------------------
+*/
+#event-banner {
+  background-image: url("https://toptal.com/designers/subtlepatterns/patterns/whitediamond.png");
+}
+#event-banner .row {
+  display: flex;
+  flex-direction: column;
+}
+#event-banner .row #banner-registration {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  #event-banner .row {
+    flex-direction: row;
+  }
+  #event-banner .row #banner-registration {
+    margin: auto;
+  }
+}
+
 
 
 /*
