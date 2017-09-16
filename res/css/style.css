@@ -11,25 +11,26 @@
   04. Countdown
   05. Intro
   06. Section - Team
+  07. Section - Speakers
   08. Section - Venue
-  08. Section - Schedule
+  09. Section - Schedule
     - Carousel Schedule
     - Timeline
-  09. Milestones
-  10. Section - FAQ
+  10. Milestones
+  11. Section - FAQ
     - Accordions
     - Nav Stacked
-  11. Section - Ticket
+  12. Section - Ticket
     - Testimonial
     - Pricing
-  12. Section - Register
-  13. Section - Contact
+  13. Section - Register
+  14. Section - Contact
     - Google map
     - Forms
-  14. Event bottom banner
-  15. Countdown timer
-  16. Footer
-  17. Responsive images
+  15. Event bottom banner
+  16. Countdown timer
+  17. Footer
+  18. Responsive images
 */
 
 
@@ -187,6 +188,17 @@
 */
 
 .member-box {
+  margin-bottom: 24px;
+}
+
+
+
+/*
+  Section - Speakers
+  ------------------
+*/
+
+.speaker-box {
   margin-bottom: 24px;
 }
 
