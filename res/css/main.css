@@ -1580,7 +1580,7 @@ h6 {
 }
 
 .features-box:hover .show-on-hover:not(.disabled) {
-  opacity: .8
+  opacity: .85
 }
 
 .features-box .box-shadow-yes {
@@ -1594,7 +1594,7 @@ h6 {
 }
 
 .features-box .show-on-hover.active {
-  opacity: .8
+  opacity: .85
 }
 
 .carousel.carousel-fullscreen,
