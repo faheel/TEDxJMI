@@ -158,20 +158,20 @@ form label.error {
 }
 
 ::-webkit-input-placeholder {
-  color: #272727!important;
+  color: #666!important;
   font-size: 13px;
   text-overflow: ellipsis
 }
 
 :-moz-placeholder {
-  color: #272727!important;
+  color: #666!important;
   font-size: 13px;
   opacity: 1;
   text-overflow: ellipsis
 }
 
 :-ms-input-placeholder {
-  color: #272727!important;
+  color: #666!important;
   font-size: 13px;
   opacity: 1;
   text-overflow: ellipsis
