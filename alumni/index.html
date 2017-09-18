@@ -157,13 +157,13 @@ Event website by Syed Faheel Ahmad (github.com/faheel)
 
           <form name="alumni" action="thank-you" method="post" netlify>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <input type="text" placeholder="Name" name="name" required>
                 <input type="email" placeholder="Email" name="email" required>
               </div>
               <!-- //.col-md-6 -->
 
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <input type="text" placeholder="Contact number" name="phone" required>
                 <input type="text" placeholder="Batch" name="batch" required>
               </div>
@@ -171,7 +171,15 @@ Event website by Syed Faheel Ahmad (github.com/faheel)
             </div>
             <!-- //.row -->
 
-            <div class="row text-center margin-2">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <textarea placeholder="Your Message" name="message" required></textarea>
+              </div>
+              <!-- //.col-md-6 -->
+            </div>
+            <!-- //.row -->
+
+            <div class="row text-center">
               <button type="submit" class="btn btn-base-color btn-medium">
                 Submit
               </button>
