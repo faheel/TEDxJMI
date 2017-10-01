@@ -1,47 +1,36 @@
 /*
   Table of contents
   -----------------
-  01. Google fonts
-  02. Navbar
-  03. Section - Home
+  01. Navbar
+  02. Section - Home
     - Home BG Static (default)
     - Home BG Parallax
     - Home BG Slideshow
     - Home BG Slider
-  04. Countdown
-  05. Intro
-  06. Section - Team
-  07. Section - Speakers
-  08. Section - Venue
-  09. Section - Schedule
+  03. Countdown
+  04. Intro
+  05. Section - Team
+  06. Section - Speakers
+  07. Section - Venue
+  08. Section - Schedule
     - Carousel Schedule
     - Timeline
-  10. Milestones
-  11. Section - FAQ
+  09. Milestones
+  10. Section - FAQ
     - Accordions
     - Nav Stacked
-  12. Section - Ticket
+  11. Section - Ticket
     - Testimonial
     - Pricing
-  13. Section - Register
-  14. Section - Contact
+  12. Section - Register
+  13. Section - Contact
     - Google map
     - Forms
-  15. Event bottom banner
-  16. Countdown timer
-  17. Footer
-  18. Responsive images
+  14. Event bottom banner
+  15. Countdown timer
+  16. Footer
+  17. Responsive images
 */
-
-
-
-/*
-  Google fonts
-  ------------
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Catamaran:400,700,900);
 
 
 
