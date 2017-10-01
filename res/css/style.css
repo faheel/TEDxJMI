@@ -40,8 +40,8 @@
   ------------
 */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,700,900);
 
 
 
@@ -136,7 +136,7 @@
 }
 .countdown .clock-item {
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Catamaran", sans-serif;
   border-radius: 2px;
   display: inline-block;
   height: 100%;
@@ -611,7 +611,7 @@
   align-self: center;
 }
 .countdown-timer .label {
-  font-family: Montserrat, sans-serif;
+  font-family: Catamaran, sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.75);
