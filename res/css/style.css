@@ -30,6 +30,7 @@
   15. Countdown timer
   16. Footer
   17. Responsive images
+  18. Features box
 */
 
 
@@ -693,4 +694,20 @@
   left: 0;
   height: 100%;
   margin: auto;
+}
+
+
+
+/*
+  Features box
+  ------------
+*/
+
+@media (min-width: 768px) {
+  .row .features-box {
+    margin-bottom: 15px;
+  }
+  .row .features-box:last-child {
+    margin-bottom: 0;
+  }
 }
