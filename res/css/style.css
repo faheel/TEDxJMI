@@ -51,6 +51,13 @@
 
 
 
+@media (max-width: 480px) {
+  .navbar-brand img{
+    width: 50%;
+    margin-top: 3%;
+  }
+}
+
 /*
   Section - Home
   --------------
@@ -73,13 +80,13 @@
 /* Home BG Slideshow */
 
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/intro-a.jpeg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
-  background: url("../images/bg-home-2.jpg");
+  background: url("../images/intro-b.jpeg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
-  background: url("../images/bg-home-3.jpg");
+  background: url("../images/intro-c.jpeg");
 }
 
 
@@ -200,7 +207,7 @@
 */
 
 #venue {
-  background-image: url("../images/bg-venue.jpg");
+  background-image: url("../images/intro-a.jpeg");
   background-position: center bottom !important;
 }
 
