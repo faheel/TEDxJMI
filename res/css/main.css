@@ -52,7 +52,7 @@ a:focus {
 
 img {
   height: auto;
-  max-width: 100%
+  /* max-width: 100% */
 }
 
 video {
@@ -997,6 +997,10 @@ h6 {
 
 .margin-1 {
   margin: 1%!important
+}
+
+.xs-margin-5-0 {
+  margin: 5% 0% !important;
 }
 
 .margin-1-5 {

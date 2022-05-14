@@ -33,8 +33,6 @@
   18. Features box
 */
 
-
-
 /*
   Navbar
   ------
@@ -49,10 +47,8 @@
   max-height: inherit;
 }
 
-
-
 @media (max-width: 480px) {
-  .navbar-brand img{
+  .navbar-brand img {
     width: 50%;
     margin-top: 3%;
   }
@@ -69,13 +65,11 @@
   background: url("../images/bg-home-1.jpg");
 }
 
-
 /* Home BG Parallax */
 
 #home-bg-parallax > .bg-parallax {
   background: url("../images/bg-parallax.jpg");
 }
-
 
 /* Home BG Slideshow */
 
@@ -88,7 +82,6 @@
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
   background: url("../images/intro-c.jpeg");
 }
-
 
 /* Home BG Slider */
 
@@ -107,7 +100,115 @@
   z-index: 20;
 }
 
+/* Carousel */
 
+.contain {
+  margin: 10% auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+@media (max-width: 480px) {
+  .contain {
+    margin-top: 100px;
+  }
+  .item {
+    width: 90% !important;
+    height: 90% !important;
+  }
+  .a > img {
+    width: 70%;
+    padding-bottom: 10%;
+  }
+  .b > img,
+  .c > img,
+  .d > img {
+    padding-bottom: 10%;
+  }
+  .e > img {
+    padding-bottom: 11%;
+  }
+  .f > img {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.activeCarouselCard{
+  border: 2px solid;
+  box-shadow: 0 0 30px white;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  opacity: 0.95;
+  border-radius: 10px;
+  transition: all 0.8s ease-in;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  background: rgba(0, 0, 0, 0.98);
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+  background: rgba(0, 0, 0, 0.98);
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+  background: rgba(0, 0, 0, 0.98);
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+  background: rgba(0, 0, 0, 0.98);
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+  background: rgba(0, 0, 0, 0.98);
+}
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+  background: rgba(0, 0, 0, 0.98);
+}
+
+.next,
+.prev {
+  visibility: hidden;
+}
+.next:hover,
+.prev:hover {
+  color: #000;
+}
+.next:active,
+.prev:active {
+  top: 104px;
+  box-shadow: 0 1px 0 #999;
+}
+.next {
+  right: 5em;
+}
+.prev {
+  left: 5em;
+}
+/* Carousel end */
 
 /*
   Countdown
@@ -154,8 +255,6 @@
   }
 }
 
-
-
 /*
   Intro
   -----
@@ -177,8 +276,6 @@
   background-image: url("../images/intro-3.jpg");
 }
 
-
-
 /*
   Section - Team
   --------------
@@ -187,8 +284,6 @@
 .member-box {
   margin-bottom: 24px;
 }
-
-
 
 /*
   Section - Speakers
@@ -199,19 +294,15 @@
   margin-bottom: 24px;
 }
 
-
-
 /*
   Section - Venue
   ---------------
 */
 
 #venue {
-  background-image: url("../images/intro-a.jpeg");
+  background-image: url("../images/bg-parallax.jpg");
   background-position: center bottom !important;
 }
-
-
 
 /*
   Section - Schedule
@@ -231,7 +322,6 @@
   width: 110px;
 }
 
-
 /* Carousel Schedule */
 
 .carousel-schedule .carousel-cell {
@@ -242,7 +332,6 @@
     width: 50%;
   }
 }
-
 
 /* Timeline */
 
@@ -260,7 +349,7 @@
   background-color: #dfdfdf;
   border-radius: 50%;
   bottom: 0;
-  content: '';
+  content: "";
   display: block;
   height: 8px;
   left: 0;
@@ -275,7 +364,7 @@
   background-color: #ffffff;
   border: 1px solid #989898;
   border-radius: 50%;
-  content: '';
+  content: "";
   display: block;
   height: 12px;
   left: 0;
@@ -296,8 +385,6 @@
   padding: 16px;
 }
 
-
-
 /*
   Milestones
   ----------
@@ -306,8 +393,6 @@
 #milestones {
   background-image: url("../images/bg-milestones.jpg");
 }
-
-
 
 /*
   Section - FAQ
@@ -353,7 +438,7 @@
 }
 .panel-title a:before {
   color: #989898;
-  content: '\f107';
+  content: "\f107";
   display: block;
   font-family: "FontAwesome", sans-serif;
   font-size: 14px;
@@ -363,7 +448,7 @@
   top: 0;
 }
 .panel-title a.collapsed:before {
-  content: '\f105';
+  content: "\f105";
 }
 .panel-title a span {
   margin-right: 4px;
@@ -374,7 +459,6 @@
 .panel-body p {
   max-width: 600px;
 }
-
 
 /* Nav Stacked */
 
@@ -390,8 +474,6 @@
   color: #272727;
   padding: 14px 18px;
 }
-
-
 
 /*
   Section - Ticket
@@ -415,7 +497,6 @@
   height: 75px;
   padding-left: 95px;
 }
-
 
 /* Pricing */
 
@@ -443,7 +524,7 @@
   background-color: #989898;
   border-radius: 50%;
   color: #ffffff;
-  content: '\2713';
+  content: "\2713";
   display: block;
   font-size: 11px;
   left: 0;
@@ -457,8 +538,6 @@
 .pricing ul > li:first-child {
   margin-top: 0;
 }
-
-
 
 /*
   Section - Register
@@ -475,8 +554,6 @@
   height: 120px;
 }
 
-
-
 /*
   Section - Contact
   -----------------
@@ -492,7 +569,6 @@
   }
 }
 
-
 @media (max-width: 991px) {
   .contact-address {
     margin-top: 48px;
@@ -501,28 +577,27 @@
   }
 }
 
-
 /* Google map */
 
 .map {
   position: relative;
-  padding-bottom: 100%;    /* aspect ratio 1:1 */
+  padding-bottom: 100%; /* aspect ratio 1:1 */
   height: 0;
   overflow: hidden;
 }
-@media (min-width:420px) {
+@media (min-width: 420px) {
   .map {
-    padding-bottom: 75%;    /* aspect ratio 3:4 */
+    padding-bottom: 75%; /* aspect ratio 3:4 */
   }
 }
-@media (min-width:540px) {
+@media (min-width: 540px) {
   .map {
-    padding-bottom: 60%;    /* aspect ratio 3:5 */
+    padding-bottom: 60%; /* aspect ratio 3:5 */
   }
 }
-@media (min-width:800px) {
+@media (min-width: 800px) {
   .map {
-    padding-bottom: 75%;    /* aspect ratio 3:4 */
+    padding-bottom: 75%; /* aspect ratio 3:4 */
   }
 }
 .map iframe {
@@ -533,7 +608,6 @@
   width: 100% !important;
   height: 100% !important;
 }
-
 
 /* Forms */
 
@@ -551,13 +625,11 @@
   height: 100% !important;
 }
 #volunteer-form {
-  padding-bottom: 3000px;    /* height */
+  padding-bottom: 3000px; /* height */
 }
 #nominate-speaker-form {
-  padding-bottom: 1950px;    /* height */
+  padding-bottom: 1950px; /* height */
 }
-
-
 
 /*
   Event bottom banner
@@ -582,8 +654,6 @@
     margin: auto;
   }
 }
-
-
 
 /*
   Countdown timer
@@ -615,7 +685,7 @@
   padding-top: 8px;
   align-self: center;
 }
-@media (min-width:420px) {
+@media (min-width: 420px) {
   .countdown-timer .value {
     font-size: 48px;
   }
@@ -623,7 +693,7 @@
     padding-top: 16px;
   }
 }
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .countdown-timer .value {
     font-size: 56px;
   }
@@ -631,7 +701,7 @@
     font-size: 18px;
   }
 }
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .countdown-timer .value {
     font-size: 64px;
   }
@@ -639,8 +709,6 @@
     padding-top: 24px;
   }
 }
-
-
 
 /*
   Footer
@@ -682,8 +750,6 @@
   padding-top: 32px;
 }
 
-
-
 /*
   Responsive images
   -----------------
@@ -691,7 +757,7 @@
 
 .img-wrapper {
   position: relative;
-  padding-bottom: 133.33%;    /* 4:3 aspect ratio */
+  padding-bottom: 133.33%; /* 4:3 aspect ratio */
   overflow: hidden;
   width: 100%;
 }
@@ -702,8 +768,6 @@
   height: 100%;
   margin: auto;
 }
-
-
 
 /*
   Features box
