@@ -33,6 +33,15 @@
   18. Features box
 */
 
+@font-face {
+  font-family: 'Helvetica';
+  src: URL('../fonts/Helvetica.ttf') format('truetype');
+}
+
+*{
+  font-family: Helvetica !important;
+}
+
 /*
   Navbar
   ------
@@ -119,13 +128,13 @@
     height: 90% !important;
   }
   .a > img {
-    width: 70%;
+    width: 85%;
     padding-bottom: 10%;
   }
   .b > img,
   .c > img,
   .d > img {
-    padding-bottom: 10%;
+    padding-bottom: 14%;
   }
   .e > img {
     padding-bottom: 11%;
@@ -158,7 +167,7 @@
   line-height: 200px;
   font-size: 5em;
   text-align: center;
-  color: #fff;
+  color: rgba(255, 255, 255,0.5);
   opacity: 0.95;
   border-radius: 10px;
   transition: all 0.8s ease-in;
