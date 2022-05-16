@@ -33,15 +33,6 @@
   18. Features box
 */
 
-@font-face {
-  font-family: 'Helvetica';
-  src: URL('../fonts/Helvetica.ttf') format('truetype');
-}
-
-*{
-  font-family: Helvetica !important;
-}
-
 /*
   Navbar
   ------
