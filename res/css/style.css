@@ -44,7 +44,7 @@
 
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: inherit;
+  Px-height: inherit;
 }
 
 @media (max-width: 480px) {
@@ -74,7 +74,7 @@
 /* Home BG Slideshow */
 
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
-  background: url("../images/intro-a.jpeg");
+  background: url("../images/landing_header.JPG");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
   background: url("../images/intro-b.jpeg");
@@ -131,7 +131,7 @@
     padding-bottom: 11%;
   }
   .f > img {
-    width: 100%;
+    width: 90%;
     padding-bottom: 10%;
   }
 }
@@ -146,7 +146,7 @@
 
 .activeCarouselCard{
   border: 2px solid;
-  box-shadow: 0 0 30px white;
+  box-shadow: 0 0 30px rgb(232, 46, 46);
 }
 
 .item {
@@ -186,7 +186,7 @@
 }
 .f {
   transform: rotateY(300deg) translateZ(250px);
-  background: rgba(0, 0, 0, 0.98);
+  background: rgba(14,1,2,1);
 }
 
 .next,
@@ -301,7 +301,13 @@
 
 #venue {
   background-image: url("../images/bg-parallax.jpg");
-  background-position: center bottom !important;
+  background-position: center bottom;
+}
+
+@media (max-width: 480px) {
+  #venue {
+    background-position: -300px bottom !important;
+  }
 }
 
 /*
