@@ -77,19 +77,19 @@
   background: url("../images/landing_header.JPG");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
-  background: url("../images/intro-b.jpeg");
+  /* background: url("../images/intro-b.jpeg"); */
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
-  background: url("../images/intro-c.jpeg");
+  /* background: url("../images/intro-c.jpeg"); */
 }
 
 /* Home BG Slider */
 
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
-  background: url("../images/bg-home-1.jpg");
+  /* background: url("../images/bg-home-1.jpg"); */
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(2) {
-  background: url("../images/bg-home-2.jpg");
+  /* background: url("../images/bg-home-2.jpg"); */
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(3) {
   background: url("../images/bg-home-3.jpg");
