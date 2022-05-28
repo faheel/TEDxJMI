@@ -83,6 +83,22 @@
   /* background: url("../images/intro-c.jpeg"); */
 }
 
+/* Event */
+#home-bg-event{
+  background-image: url('../images/mobile-black.gif');
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 420px){
+  #theme-logo {
+    width: 38% !important;
+  }
+}
+
+/* Event */
+
 /* Home BG Slider */
 
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {

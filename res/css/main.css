@@ -509,6 +509,10 @@ h6 {
   background: rgba(0, 0, 0, .7)!important
 }
 
+.bg-overlay-black {
+  background-color: #000!important;
+}
+
 .bg-overlay-black-8:before {
   background: rgba(0, 0, 0, .8)!important
 }
