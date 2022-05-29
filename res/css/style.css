@@ -108,6 +108,14 @@
   #reorient-card {
     top: -22% !important;
   }
+  #home-bg-early-bird {
+    height: 100vh;
+  }
+  #home-bg-early-bird > img {
+    width: 98%;
+    height: 80%;
+    margin: 22% 0px;
+  }
 }
 
 /* Event */
