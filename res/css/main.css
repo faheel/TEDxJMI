@@ -617,6 +617,10 @@ h6 {
   border-radius: 3px!important
 }
 
+.border-capsule {
+  border-radius: 16px!important;
+}
+
 .no-border {
   border: none!important
 }
